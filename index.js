@@ -12,7 +12,7 @@ const fs = require('fs');
 const BookingModel = require("./models/Booking");
 
 const bcryptSaltKey = bcrypt.genSaltSync(10);
-const jwtSecretKey = "#############################";
+const jwtSecretKey = "";
 
 require("dotenv").config();
 
